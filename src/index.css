@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+* {
+  font-family: 'Open Sans';
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  padding: 50px;
+  background-color: #282A36;
+}
+
+h2{
+  color: #F8F8F2;
+  font-weight: 700;
+  font-size: 35px;
+  margin: 10px 0;
+}
+
+h3{
+  color: #F8F8F2;
+  margin-top: 20px !important;
+  font-weight: 700;
+  margin: 10px 0;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.category-title-blue{
+  background-color: rgba(139, 233, 253,12%);
+  color: rgba(139, 233, 253);
+}
+
+.category-title-green{
+  background-color: rgba(80, 250, 123,12%);
+  color: rgba(80, 250, 123);
+}
+
+.category-title-orange{
+  background-color: rgba(255, 184, 108,12%);
+  color: rgba(255, 184, 108);
+}
+.category-title-pink{
+  background-color: rgba(255, 121, 198,12%);
+  color: rgba(255, 121, 198);
+}
+.category-title-purple{
+  background-color: rgba(189, 147, 249,12%);
+  color: rgba(189, 147, 249);
+}
+
+.category-title-red{
+  background-color: rgba(255, 85, 85,12%);
+  color: rgba(255, 85, 85);
+}
+
+.category-title-yellow{
+  background-color: rgba(241, 250, 140,12%);
+  color: rgba(241, 250, 140);
+}
+input {
+  width: 100%;
+  height: 40px;
+  border: 2px solid #F8F8F2;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: #282A36;
+  color: #F8F8F2;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 20px;
+}
+
+hr{
+  width: 100%;
+}
+
+.card-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+border: 2px solid #F8F8F2;
+border-radius: 5px;
+width: 300px;
+overflow: hidden;
+align-content: center;
+overflow: hidden;
+margin: 10px;
+}
+
+.card img {
+  max-height: 170px;
+  width: 100%;
+}
+
+.card p {
+  padding: 5px 10px;
+  text-align: center;
+  color: #F8F8F2;
+  font-size: 1rem;
+  font-family: 'Open Sans';
+  font-weight: 600;
+}
+
+
+
