@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 import { AddCategory } from '../components/AddCategory'
 import { GifGrid } from '../components/GifGrid/GifGrid';
-export const GifExpertApp = () => {
+
+export const GifExpertApp = ({ defaulCategories = ['One Punch'] }) => {
 
 
 
-  const [categories, setcategories] = useState(['One Punch'])
+  const [categories, setcategories] = useState(defaulCategories)
 
 
   // const handleAdd = (newCategory: string) => {

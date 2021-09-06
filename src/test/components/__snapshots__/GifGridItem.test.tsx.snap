@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test to GifGridItem component should be render GifGridItem component well 1`] = `
+<div
+  className="card animate__animated animate__pulse"
+>
+  <img
+    alt="title"
+    src="https://localhost/algo.jpg"
+  />
+  <p>
+    title
+  </p>
+</div>
+`;

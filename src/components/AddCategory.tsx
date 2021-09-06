@@ -13,10 +13,11 @@ export const AddCategory = ({ setCategories, }: Props) => {
   }
 
   const handleSubmit = (e: React.ChangeEvent<HTMLFormElement>) => {
+     console.log('handleSubmit',inputValue);
     e.preventDefault();
     if (inputValue.trim().length > 2) {
       setCategories((cats: string[]) => [inputValue, ...cats]);
-      setInputValue('');
+       setInputValue('');
     }
   }
   return (

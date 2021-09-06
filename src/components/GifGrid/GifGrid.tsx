@@ -3,7 +3,7 @@ import { ICategory, IGift } from '../../interfaces/interfaces';
 import { GifGridItem } from '../GifGridItem/GifGridItem';
 import { useFetchGifs } from '../../hooks/useFecthGifs';
 
-export const GifGrid = ({ category }: ICategory) => {
+export const GifGrid:Function = ({ category }: ICategory) => {
 
   const { data:images, loading } = useFetchGifs({ category })
 

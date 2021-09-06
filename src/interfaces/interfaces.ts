@@ -6,7 +6,7 @@ export interface ICategory {
 }
 
 export interface IGift {
-  id: string;
+  id?: string;
   title: string;
   url: string;
 }
